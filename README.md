@@ -8,3 +8,4 @@
 4. [使用JDBC访问关系型数据库](https://github.com/rainlf/spring-guides/tree/master/04-jdbc-relational-data)
 5. [上传文件](https://github.com/rainlf/spring-guides/tree/master/05-upload-files)
 6. [使用LDAP进行用户验证](https://github.com/rainlf/spring-guides/tree/master/06-ldap-authenticate)
+7. [使用Redis发布和订阅消息](https://github.com/rainlf/spring-guides/tree/master/07-messaging-redis)
