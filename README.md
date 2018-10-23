@@ -10,3 +10,4 @@
 6. [使用LDAP进行用户验证](https://github.com/rainlf/spring-guides/tree/master/06-ldap-authenticate)
 7. [使用Redis实现发布和订阅消息](https://github.com/rainlf/spring-guides/tree/master/07-messaging-redis)
 8. [使用RabbitMQ实现发布和订阅消息](https://github.com/rainlf/spring-guides/tree/master/08-messaging-rabbitmq)
+9. [使用Neo4j访问数据](https://github.com/rainlf/spring-guides/tree/master/09-accessing-data-neo4j)
