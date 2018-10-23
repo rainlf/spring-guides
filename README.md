@@ -4,4 +4,5 @@
 
 1. 构建一个RESTful web服务。
 2. 构建一个计划任务。
-3. 消费RESTful web服务
+3. 消费RESTful web服务。
+4. 使用JDBC访问关系型数据库。
