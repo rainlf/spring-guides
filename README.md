@@ -16,3 +16,4 @@
 12. [消息队列-JMS](https://github.com/rainlf/spring-guides/tree/master/12-messaging-jms)
 13. [SpringBatch批处理服务](https://github.com/rainlf/spring-guides/tree/master/13-batch-processing)
 13. [安全web服务](https://github.com/rainlf/spring-guides/tree/master/14-securing-web)
+13. [超媒体驱动的RESTful service](https://github.com/rainlf/spring-guides/tree/master/15-rest-hateoas)
