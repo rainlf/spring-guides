@@ -15,5 +15,6 @@
 11. [使用Spring Boot Actuator 构建RESTful web service](https://github.com/rainlf/spring-guides/tree/master/11-actuator-service)
 12. [消息队列-JMS](https://github.com/rainlf/spring-guides/tree/master/12-messaging-jms)
 13. [SpringBatch批处理服务](https://github.com/rainlf/spring-guides/tree/master/13-batch-processing)
-13. [安全web服务](https://github.com/rainlf/spring-guides/tree/master/14-securing-web)
-13. [超媒体驱动的RESTful service](https://github.com/rainlf/spring-guides/tree/master/15-rest-hateoas)
+14. [安全web服务](https://github.com/rainlf/spring-guides/tree/master/14-securing-web)
+15. [带超链接的RESTful service](https://github.com/rainlf/spring-guides/tree/master/15-rest-hateoas)
+16. [事务管理](https://github.com/rainlf/spring-guides/tree/master/16-managing-transactions)
