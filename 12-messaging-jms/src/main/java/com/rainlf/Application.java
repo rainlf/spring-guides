@@ -20,34 +20,36 @@ import javax.jms.ConnectionFactory;
 @SpringBootApplication
 public class Application {
 
-	@Bean
-	public JmsListenerContainerFactory<?> myFactory(ConnectionFactory connectionFactory, DefaultJmsListenerContainerFactoryConfigurer configurer) {
-		DefaultJmsListenerContainerFactory factory = new DefaultJmsListenerContainerFactory();
-		// This provides all boot's default to this factory, including the message converter
-		configurer.configure(factory, connectionFactory);
+    @Bean
+    public JmsListenerContainerFactory<?> myFactory(ConnectionFactory connectionFactory, DefaultJmsListenerContainerFactoryConfigurer configurer) {
+        DefaultJmsListenerContainerFactory factory = new DefaultJmsListenerContainerFactory();
 
-		// You could still override some of Boot's default if necessary.
-		return factory;
-	}
+        // This provides all boot's default to this factory, including the message converter
+        configurer.configure(factory, connectionFactory);
 
-	@Bean // Serialize message content to json using TextMessage
-	public MessageConverter jacksonJmsMessageConverter() {
-		MappingJackson2MessageConverter converter = new MappingJackson2MessageConverter();
-		converter.setTargetType(MessageType.TEXT);
-		converter.setTypeIdPropertyName("_type");
-		return converter;
-	}
+        // You could still override some of Boot's default if necessary.
+        return factory;
+    }
 
-	public static void main(String[] args) {
-		// Launch the application
-		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
+    // Serialize message content to json using TextMessage
+    @Bean
+    public MessageConverter jacksonJmsMessageConverter() {
+        MappingJackson2MessageConverter converter = new MappingJackson2MessageConverter();
+        converter.setTargetType(MessageType.TEXT);
+        converter.setTypeIdPropertyName("_type");
+        return converter;
+    }
 
-		JmsTemplate jmsTemplate = context.getBean(JmsTemplate.class);
+    public static void main(String[] args) {
+        // Launch the application
+        ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 
-		// Send a message with a POJO - the template reuse the message converter
-		System.out.println("Sending an email message.");
-		jmsTemplate.convertAndSend("mailbox", new Email("info@example.com", "Hello"));
-		jmsTemplate.convertAndSend("mailbox", new Email("info@example.com", "Hello"));
-		jmsTemplate.convertAndSend("mailbox", new Email("info@example.com", "Hello"));
-	}
+        JmsTemplate jmsTemplate = context.getBean(JmsTemplate.class);
+
+        // Send a message with a POJO - the template reuse the message converter
+        System.out.println("Sending an email message.");
+        jmsTemplate.convertAndSend("mailbox", new Email("info@example.com", "Hello"));
+        jmsTemplate.convertAndSend("mailbox", new Email("info@example.com", "Hello"));
+        jmsTemplate.convertAndSend("mailbox", new Email("info@example.com", "Hello"));
+    }
 }

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * @date : 2018/10/25 3:26 PM
  */
 @Component
-public class Recevier {
+public class Receiver {
 
     @JmsListener(destination = "mailbox", containerFactory = "myFactory")
     public void receiveMessage(Email email) {
