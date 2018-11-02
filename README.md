@@ -18,3 +18,4 @@
 14. [安全web服务](https://github.com/rainlf/spring-guides/tree/master/14-securing-web)
 15. [带超链接的RESTful service](https://github.com/rainlf/spring-guides/tree/master/15-rest-hateoas)
 16. [事务管理](https://github.com/rainlf/spring-guides/tree/master/16-managing-transactions)
+16. [使用JPA访问数据](https://github.com/rainlf/spring-guides/tree/master/17-accessing-data-jpa)
