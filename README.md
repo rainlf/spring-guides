@@ -20,3 +20,4 @@
 16. [事务管理](https://github.com/rainlf/spring-guides/tree/master/16-managing-transactions)
 17. [使用JPA访问数据](https://github.com/rainlf/spring-guides/tree/master/17-accessing-data-jpa)
 18. [异步方法](https://github.com/rainlf/spring-guides/tree/master/18-async-method)
+19. [WebSocket交互式web application](https://github.com/rainlf/spring-guides/tree/master/19-messaging-stomp-websocket)

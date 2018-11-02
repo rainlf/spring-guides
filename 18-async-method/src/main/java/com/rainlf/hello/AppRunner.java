@@ -24,7 +24,7 @@ public class AppRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-// Start the clock
+        // Start the clock
         long start = System.currentTimeMillis();
 
         // Kick of multiple, asynchronous lookups
