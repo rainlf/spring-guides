@@ -22,4 +22,5 @@
 18. [异步方法](https://github.com/rainlf/spring-guides/tree/master/18-async-method)
 19. [WebSocket交互式web application](https://github.com/rainlf/spring-guides/tree/master/19-messaging-stomp-websocket)
 20. [支持跨域的web service](https://github.com/rainlf/spring-guides/tree/master/20-rest-service-cors)
-20. [使用REST访问JPA数据](https://github.com/rainlf/spring-guides/tree/master/21-accessing-data-rest)
+21. [使用REST访问JPA数据](https://github.com/rainlf/spring-guides/tree/master/21-accessing-data-rest)
+22. [使用REST访问MongoDB数据](https://github.com/rainlf/spring-guides/tree/master/22-accessing-mongodb-data-rest)
