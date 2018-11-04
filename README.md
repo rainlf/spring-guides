@@ -25,3 +25,4 @@
 21. [使用REST访问JPA数据](https://github.com/rainlf/spring-guides/tree/master/21-accessing-data-rest)
 22. [使用REST访问MongoDB数据](https://github.com/rainlf/spring-guides/tree/master/22-accessing-mongodb-data-rest)
 23. [缓存数据](https://github.com/rainlf/spring-guides/tree/master/23-caching)
+24. [Web测试](https://github.com/rainlf/spring-guides/tree/master/24-testing-web)
