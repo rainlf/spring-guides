@@ -1,0 +1,4 @@
+rootProject.name = '25-multi-module'
+
+include 'library'
+include 'application'
